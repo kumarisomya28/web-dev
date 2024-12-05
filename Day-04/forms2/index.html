@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Form with Dropdown and Table</title>
+</head>
+<body>
+  <form>
+    <!-- Username -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <!-- City (Dropdown) -->
+    <label for="">City:</label>
+    <select>
+      <option value="delhi">Delhi</option>
+      <option value="mumbai">Mumbai</option>
+      <option value="kolkata">Kolkata</option>
+      <option value="chennai">Chennai</option>
+    </select><br><br>
+
+    <!-- Language -->
+    <p>Language:</p>
+    <input type="checkbox" id="english" name="language" value="English">
+    <label for="english">English</label>
+    <input type="checkbox" id="hindi" name="language" value="Hindi">
+    <label for="hindi">Hindi</label>
+    <input type="checkbox" id="telugu" name="language" value="Telugu">
+    <label for="telugu">Telugu</label><br><br>
+
+    <!-- Gender -->
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label>
+    <input type="radio" id="others" name="gender" value="Others">
+    <label for="others">Others</label><br><br>
+
+    <!-- Education (Table) -->
+    <p>Education:</p>
+    <table border="1">
+      <tr>
+        <th>Select</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td><input type="radio" id="10th" name="education" value="10th"></td>
+        <td>10th</td>
+      </tr>
+      <tr>
+        <td><input type="radio" id="12th" name="education" value="12th"></td>
+        <td>12th</td>
+      </tr>
+      <tr>
+        <td><input type="radio" id="btech" name="education" value="BTech"></td>
+        <td>B.Tech</td>
+      </tr>
+    </table><br>
+
+    <!-- Photo -->
+    <p>Photo:</p>
+    <input type="file" id="photo" name="photo"><br><br>
+
+    <!-- Submit and Reset -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+</body>
+</html>
